@@ -1,0 +1,16 @@
+get a new file.
+npm init (this will install package.json).
+then install express js, (#npm install express --save).
+in the package.json, addd two more lines at the bottom, ("scripts......).
+write the index.js file.
+Declare the port num as shown in the file, this is necesssary for heroku.
+make a Procfile. it has no extension, it contains the first executable file. write as it it there. 
+run in local machine.
+create new in heroku. random app name will be given if kept blank. 
+go to terminal, put some command to upload files to heroku. (Heroku CLI git must be installed in pc)
+#Heroku login (first time email id pass needed)
+#git init
+#copy and paste from heroku site the repository link
+#status>add>status>commit
+#git push heroku master
+
